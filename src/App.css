@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+
+}
+.header {
+  background-color: white; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+
+}
+
+.icon-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  
+}
+
+.icon-switch {
+  cursor: pointer;
+}
+
+.material-icons {
+  font-size: 2rem;
+  color: gray;
+}
+
+.list-view{
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-family:Arial, Helvetica, sans-serif
+}
+
+.list-item{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.list-item-img{
+  width: 100px;
+}
+
+.list-item-img img{
+  width: 100%;
+  height: 70px;
+  object-fit: cover;
+}
+
+.list-item-content{
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color:rgb(248, 247, 247);
+  height: 60px;
+}
+ .list-item-title{
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.list-item-price{
+  font-size: 1rem;
+  font-weight: 300;
+  color:red
+}
+
+.list-item-color{
+  font-size: 1rem;
+  font-weight: 300;
+}  
+
+.cards-view{
+  font-family:Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2em 7em;
+  padding-top: 40px;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+align-items: center;
+background-color:rgb(248, 247, 247);
+box-shadow: 
+inset -5px 0 5px -3px lightgrey,
+inset -5px 0 5px -3px lightgrey,
+inset 5px 0 5px -3px lightgrey,
+0px 5px 5px lightgrey;
+}
+
+.card-img{
+  overflow:hidden;
+  width: 90%;
+
+}
+
+.card-img img{
+margin-top: -35%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.card-title{
+  margin-top: 15%;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.card-price{
+  margin: 10% 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color:red
+}
+
+.card-color{
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+button{
+  width: 100px;
+  height: 30px;
+  border-radius: 15px;
+  border: solid 1.5px red;
+  cursor: pointer;
+  color: red;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 0.6rem;
+}
